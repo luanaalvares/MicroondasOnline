@@ -1,0 +1,202 @@
+html {
+  font-size: 14px;
+}
+
+.container-pai {
+    display: flex;
+    justify-content: space-between; /* Isso distribuirá as divs igualmente na horizontal */
+    margin-top: 4%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    width: 100%;
+    margin-bottom: 60px;
+    font-family: "Poppins";
+    text-align: center;
+    background: #03005D;
+    background-image: linear-gradient(to top, #010019, #03005D);
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #007bf0;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#direita {
+    width: 35%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#esquerda {
+    width: 35%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.rodape {
+    color: white;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+#startButton{
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#btnAquecerCustomizado {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #008f0c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#startButton:hover, #btnPipoca:hover, #btnLeite:hover, #btnCarnesBoi:hover, #btnFrango:hover, #btnFeijao:hover {
+    background-position: 100% 0;
+    background-color: #47ce00;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+}
+
+#startFastButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+#stopButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #de3d00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.infoMicroondas {
+    margin-top: 15px;
+    border: double;
+    border-color: white;
+    padding-top: 5px;
+    font-weight: bold;
+    color: white;
+    background: #111111;
+    border-radius: 10px
+}
+
+.infosPreAquecimento {
+    font-size: 14px;
+    width: 130%;
+    margin-top: 15px;
+    border: double;
+    border-color: white;
+    padding-top: 5px;
+    font-weight: bold;
+    color: white;
+    background: #111111;
+    border-radius: 10px
+}
+
+.temporizador {
+    background: black;
+    color: deeppink;
+}
+
+.botoesPreAquecimento {
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#btnPipoca, #btnLeite, #btnCarnesBoi, #btnFrango, #btnFeijao {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}

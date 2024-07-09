@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luana\\source\\repos\\Microondas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\views\\home\\personalizado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\views\\home\\personalizado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\controllers\\home\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\controllers\\home\\aquecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\controllers\\home\\aquecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\wwwroot\\css\\aquecimentopersonalizado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\wwwroot\\css\\aquecimentopersonalizado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\models\\personalisadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\models\\personalisadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\models\\microondasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\models\\microondasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\data\\aquecimentopersonalisado.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\data\\aquecimentopersonalisado.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|c:\\users\\luana\\source\\repos\\microondas\\microondas\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E689B6E9-014B-4C60-9D5B-84AAE0FC2951}|Microondas\\Microondas.csproj|solutionrelative:microondas\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Microondas\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Microondas\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAMwGwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-08T19:38:19.189Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "aquecimentoPersonalizado.css",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\wwwroot\\css\\aquecimentoPersonalizado.css",
+              "RelativeDocumentMoniker": "Microondas\\wwwroot\\css\\aquecimentoPersonalizado.css",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\wwwroot\\css\\aquecimentoPersonalizado.css",
+              "RelativeToolTip": "Microondas\\wwwroot\\css\\aquecimentoPersonalizado.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-08T20:09:53.41Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Personalizado.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\Home\\Personalizado.cshtml",
+              "RelativeDocumentMoniker": "Microondas\\Views\\Home\\Personalizado.cshtml",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\Home\\Personalizado.cshtml",
+              "RelativeToolTip": "Microondas\\Views\\Home\\Personalizado.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T18:46:20.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AquecimentoController.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Controllers\\Home\\AquecimentoController.cs",
+              "RelativeDocumentMoniker": "Microondas\\Controllers\\Home\\AquecimentoController.cs",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Controllers\\Home\\AquecimentoController.cs",
+              "RelativeToolTip": "Microondas\\Controllers\\Home\\AquecimentoController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T21:55:44.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Microondas\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Microondas\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAwwE8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T01:13:56.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Microondas\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Microondas\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T23:26:53.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AquecimentoPersonalisado.json",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Data\\AquecimentoPersonalisado.json",
+              "RelativeDocumentMoniker": "Microondas\\Data\\AquecimentoPersonalisado.json",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Data\\AquecimentoPersonalisado.json",
+              "RelativeToolTip": "Microondas\\Data\\AquecimentoPersonalisado.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T23:23:33.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Controllers\\Home\\HomeController.cs",
+              "RelativeDocumentMoniker": "Microondas\\Controllers\\Home\\HomeController.cs",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Controllers\\Home\\HomeController.cs",
+              "RelativeToolTip": "Microondas\\Controllers\\Home\\HomeController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwHQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T21:46:21.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Microondas\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Microondas\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T23:26:51.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PersonalisadoModel.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Models\\PersonalisadoModel.cs",
+              "RelativeDocumentMoniker": "Microondas\\Models\\PersonalisadoModel.cs",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Models\\PersonalisadoModel.cs",
+              "RelativeToolTip": "Microondas\\Models\\PersonalisadoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T00:04:20.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MIcroondasModel.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Models\\MIcroondasModel.cs",
+              "RelativeDocumentMoniker": "Microondas\\Models\\MIcroondasModel.cs",
+              "ToolTip": "C:\\Users\\luana\\source\\repos\\Microondas\\Microondas\\Models\\MIcroondasModel.cs",
+              "RelativeToolTip": "Microondas\\Models\\MIcroondasModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T23:59:25.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

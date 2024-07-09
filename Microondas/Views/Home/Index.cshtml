@@ -1,0 +1,159 @@
+﻿@model MIcroondasModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Microondas Online</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div class="container-pai">
+        <div id="esquerda">
+            <form id="formulario" class="container" action="@Url.Action("IniciarAquecimento", "Home")" method="post">
+                <h2>Microondas Online</h2>
+
+                <label for="segundos">Tempo de aquecimento (segundos):</label>
+                <input type="number" id="segundos" name="segundos" value='' min="1" max="120" required>
+
+                <br>
+                <label for="potencia">Potência (%):</label>
+                <input type="number" id="potencia" name="potencia" value='' min="1" max="10">
+                <br>
+
+                <button type="submit" id="startButton" onclick="">Iniciar</button>
+            </form>
+
+            <div class="container">
+                <div class="buttonFast">
+                    <button type="button" id="startFastButton" onclick="location.href='@Url.Action("StartRapidoBotao", "Home")'">Inicio rápido</button>
+                </div>
+                <div class="buttonCancel">
+                    <button type="button" id="stopButton" onclick="ButtonStop()">Pausa/Cancelar</button>
+                </div>
+            </div>
+
+            <div class="infoMicroondas">
+                <p>Tempo: @ViewBag.Segundos<br>Potência: @ViewBag.Potencia</p>
+                <p>Temporizador: <span id="timerDisplay">00:00</span></p>
+            </div>
+
+        </div>
+
+        <div id="direita">
+            <div class="botoesPreAquecimento">
+                <p>Pré aquecimento</p>
+                <button type="button" id="btnPipoca" onclick="location.href='@Url.Action("InfosPreAquecimento", "Home", new { alimento = "Pipoca" })'">Pipoca</button>
+                <button type="button" id="btnLeite" onclick="location.href='@Url.Action("InfosPreAquecimento", "Home", new { alimento = "Leite" })'">Leite</button>
+                <button type="button" id="btnCarnesBoi" onclick="location.href='@Url.Action("InfosPreAquecimento", "Home", new { alimento = "Carnes de boi" })'">Carnes de boi</button>
+                <button type="button" id="btnFrango" onclick="location.href='@Url.Action("InfosPreAquecimento", "Home", new { alimento = "Frango" })'">Frango</button>
+                <button type="button" id="btnFeijao" onclick="location.href='@Url.Action("InfosPreAquecimento", "Home", new { alimento = "Feijão" })'">Feijão</button>
+            </div>
+            <button type="button" id="btnAquecerCustomizado" onclick="location.href='@Url.Action("Personalizado", "Home")'">Aquecimento personalizado</button>
+            <div class="infosPreAquecimento">
+                @if (Model != null)
+                {
+                    <p>Alimento: @Model.Alimento</p>
+                    <p>Tempo: @Model.TempoPreAquecimento minutos</p>
+                    <p>Potência: @Model.PotenciaPreAquecimento</p>
+                    <p>Intruções: @Model.Instrucoes</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="temporizador">
+        <script>
+            let timerInterval;
+            let pausedTime = 0;
+            let totalSeconds = @ViewBag.Segundos;
+            let temporizador = true;
+            let botaoPressionado = false;
+            let isStarted = false;
+
+
+            function ButtonStop() {
+
+                if (!isStarted) {
+
+                    try {
+                        let segundosInput = document.getElementById('segundos');
+                        segundosInput.value = '0';
+                        let potenciaInput = document.getElementById('potencia');
+                        potenciaInput.value = '0';
+                    }
+                    catch (error) {
+                        alert(error)
+                    }
+
+                }
+
+                if (timerInterval && botaoPressionado && temporizador == false) {
+                    cleanScreen();
+                } else {
+                    pauseTimer();
+                }
+                botaoPressionado = !botaoPressionado;
+            }
+
+            function startTimer() {
+                clearInterval(timerInterval);
+                timerInterval = setInterval(updateTimer, 1000);
+            }
+
+            function pauseTimer() {
+                temporizador = false;
+
+                clearInterval(timerInterval);
+                pausedTime = totalSeconds;
+            }
+
+            function updateTimer() {
+                const minutes = Math.floor(totalSeconds / 60);
+                const seconds = totalSeconds % 60;
+                const formattedTime = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                document.getElementById('timerDisplay').textContent = formattedTime;
+
+                if (totalSeconds === 0) {
+                    clearInterval(timerInterval);
+                    alert('Tempo esgotado!');
+                    isStarted = false;
+                } else {
+                    totalSeconds--;
+                }
+            }
+
+            function cleanScreen() {
+                totalSeconds = 0;
+                updateTimer();
+            }
+
+            document.getElementById('startButton').addEventListener('click', function () {
+                isStarted = true;
+                if (timerInterval && temporizador == true) {
+                    totalSeconds += 30;
+                } if (temporizador == false) {
+                    temporizador = true;
+                    isStarted = true;
+                    startTimer();
+                }
+
+            });
+
+            startTimer();
+
+        </script>
+    </div>
+</body>
+</html>
